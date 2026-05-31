@@ -14,7 +14,7 @@ int main() {
         n = n/10;
 
     }
-    if (temp = rev )
+    if (temp == rev )
     {
         printf("the given number is a palindrome");
     }

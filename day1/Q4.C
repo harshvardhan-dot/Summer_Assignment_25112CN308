@@ -9,14 +9,14 @@ int main() {
         count =1;
     }
     else{
-        
+
     while(n !=0 ){
         n = n/10;
         count ++;
 
     }
 }
-   printf("the no of digits in %d are %d",n,count);
+   printf("the no of digits  are %d",count);
 
     return 0;
 }
