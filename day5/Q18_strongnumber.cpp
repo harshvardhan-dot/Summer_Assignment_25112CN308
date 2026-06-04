@@ -14,7 +14,6 @@ int factorial(int n){
     }
 }
 return fact ;
-
 }
 int main() {
     int num ,digit,sum =0 ;

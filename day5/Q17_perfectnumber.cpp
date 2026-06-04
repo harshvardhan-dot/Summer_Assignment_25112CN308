@@ -24,8 +24,6 @@ int main() {
     
     else
         cout<< "the number is not perfect"<<endl;
-    
-
 
     return 0;
 }
