@@ -25,8 +25,6 @@ int primefactor(int n){
         
     }
     return factor ; 
-    
-
 }
 
 int main() {

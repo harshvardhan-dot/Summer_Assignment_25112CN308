@@ -12,7 +12,6 @@ bool isperfect(int n){
         
     }
    return sum == n; 
-    
 }
 int main() {
     int num;
@@ -26,4 +25,3 @@ int main() {
         cout<< "the number is not perfect"<<endl;
 
     return 0;
-}
