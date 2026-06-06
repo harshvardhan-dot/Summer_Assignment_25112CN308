@@ -4,7 +4,7 @@ using namespace std;
 int main() {
     int x , n ;
     long long result =1;
-
+    
     cout << "enter the base (x)" << endl;
     cin >> x;
     cout<< "enter the exponent(n)"<<endl;
