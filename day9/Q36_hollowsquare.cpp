@@ -3,11 +3,18 @@ using namespace std;
 void pattern(int n){
     for (int i = 0; i < n; i++)
     {
-        for (int j = n -i ; j >=1; j--)
+        for (int j = 0 ; j < n; j++)
         {
-            cout<< "*";
+            if (i==0||j==0||j==n-1||i==n-1)
+            {
+                cout<<"*";
+            }
+            else{
+                cout<<" ";
+            }
+            
         }
-        cout<< endl;
+        cout<<endl;
         
     }
     
