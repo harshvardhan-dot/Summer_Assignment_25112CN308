@@ -1,26 +1,22 @@
 #include <iostream>
 using namespace std;
 void pattern(int n){
-    
-    for (int i = 0; i < n; i++)
+    for (int i = 0; i <= n; i++)
     {
-        for (char j = 'A'; j <= 'A'+i; j++)
+        for (int j = n -i ; j >=1; j--)
         {
-            
-            cout << j ;  
-
+            cout<< "*";
         }
         cout<< endl;
+        
     }
     
-
 }
 
 int main() {
-    int n ;
+    int n;
     cout << "enter number of rows" << endl;
-    cin>>n ;
+    cin >> n ;
     pattern(n);
-
     return 0;
 }
