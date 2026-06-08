@@ -18,6 +18,7 @@ void pattern(int n){
     
 }
 
+
 int main() {
     int n;
     cout << "enter number of rows" << endl;
