@@ -25,3 +25,4 @@ int main() {
         cout<< "the number is not perfect"<<endl;
 
     return 0;
+}   
