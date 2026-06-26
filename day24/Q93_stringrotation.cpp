@@ -21,4 +21,8 @@ int main()
         cout << "Strings are rotations.";
     else
         cout << "Strings are not rotations.";
+       
+       
+        return 0;
+
 }
