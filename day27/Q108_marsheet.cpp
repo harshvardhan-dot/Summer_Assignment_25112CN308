@@ -26,7 +26,7 @@ int main() {
                 cout << "\nRoll: " << s.roll << " Name: " << s.name;
                 cout << "\nMarks: " << s.m1 << " " << s.m2 << " " << s.m3;
                 cout << "\nTotal: " << total << " Average: " << avg;
-                cout << "\nResult: " << (avg >= 40 ? "Pass" : "Fail") << endl;
+                cout << "\nResult: " << (avg >= 33 ? "Pass" : "Fail") << endl;
             }
         }
     } while(choice != 3);
