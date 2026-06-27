@@ -14,7 +14,6 @@ int main()
     vector<Book> library;
     int choice;
     do
-    
     {
         cout << "\n1. Add Book\n2. Display Books\n3. Exit\nChoice: ";
         cin >> choice;
