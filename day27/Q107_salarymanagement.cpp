@@ -29,7 +29,7 @@ int main()
             for (auto &e : employees)
             {
                 float total = e.basic + e.hra + e.da;
-                cout << e.id << " " << e.name << " Salary: " << total << endl;
+                cout << e.id  << " " << e.name << " Salary: " << total << endl;
             }
         }
     } while (choice != 3);
