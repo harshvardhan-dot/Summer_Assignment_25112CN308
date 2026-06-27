@@ -21,4 +21,6 @@ int main()
 
     cout << "Correct! The number was " << secret << endl;
     return 0;
+
+    
 }
